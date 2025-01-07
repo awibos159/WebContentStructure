@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Usage Survey</title>
+</head>
+<body>
+    <h1>AI Usage Survey</h1>
+    <form action="#" method="post">
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" min="1"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label for="chatgpt_usage">How often do you use ChatGPT:</label><br>
+        <select id="chatgpt_usage" name="chatgpt_usage">
+            <option value="never">Never</option>
+            <option value="rarely">Rarely</option>
+            <option value="occasionally">Occasionally</option>
+            <option value="often">Often</option>
+            <option value="constantly">Constantly</option>
+        </select><br><br>
+
+        <label for="benefits">Describe shortly your benefits from using AI:</label><br>
+        <textarea id="benefits" name="benefits" rows="4" cols="50"></textarea><br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>

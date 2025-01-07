@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Data Form</title>
+</head>
+<body>
+    <h1>Patient Data Form</h1>
+    <form>
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+        
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age"><br><br>
+        
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <label for="birthplace">Place of Birth:</label><br>
+        <input type="text" id="birthplace" name="birthplace"><br><br>
+
+        <label>Illnesses:</label><br>
+        <input type="checkbox" id="diabetes" name="illnesses" value="diabetes">
+        <label for="diabetes">Diabetes</label><br>
+        <input type="checkbox" id="hypertension" name="illnesses" value="hypertension">
+        <label for="hypertension">Hypertension</label><br>
+        <input type="checkbox" id="asthma" name="illnesses" value="asthma">
+        <label for="asthma">Asthma</label><br>
+        <input type="checkbox" id="allergy" name="illnesses" value="allergy">
+        <label for="allergy">Allergy</label><br><br>
+
+        <label for="notes">Notes:</label><br>
+        <textarea id="notes" name="notes" rows="4" cols="50"></textarea><br><br>
+
+        <label for="height">Height (cm):</label><br>
+        <input type="number" id="height" name="height"><br><br>
+        
+        <label for="weight">Weight (kg):</label><br>
+        <input type="number" id="weight" name="weight"><br><br>
+        
+        <button type="button">Ok</button>
+        <button type="button">Cancel</button>
+    </form>
+</body>
+</html>
